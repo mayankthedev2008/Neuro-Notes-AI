@@ -18,7 +18,7 @@ const firebaseConfig = {
 // 🔥 GEMINI AI CONFIG
 // Get your free API key from: https://aistudio.google.com/
 // ============================================================
-const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"; // 👈 Replace this
+const GEMINI_API_KEY = "AIzaSyAOf6m3JsRUnAAFtL3IcN0eSZjo2AnPXZA";
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 // ============================================================
