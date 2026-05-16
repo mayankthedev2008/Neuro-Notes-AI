@@ -8,7 +8,7 @@ const firebaseConfig = {
   measurementId: "G-7W4Q7MJ58E"
 };
 
-const GEMINI_API_KEY = "AIzaSyAOf6m3JsRUnAAFtL3IcN0eSZjo2AnPXZA";
+const GEMINI_API_KEY = "AIzaSyAykPw4NDQ0oRUzkKy_D8Z0hV1oRoFohlw";
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 firebase.initializeApp(firebaseConfig);
