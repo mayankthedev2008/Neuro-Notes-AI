@@ -187,9 +187,9 @@ function subscribeNotes() {
 
   state.unsubscribe = db.collection('notes')
     .where('uid', '==', state.user.uid)
-    .orderBy('updatedAt', 'desc')
     .onSnapshot(snapshot => {
       state.notes = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      state.notes.sort((a, b) => (b.updatedAt?.seconds || 0) - (a.updatedAt?.seconds || 0));
       applySearch();
       renderNotes();
       renderSidebarNotes();
