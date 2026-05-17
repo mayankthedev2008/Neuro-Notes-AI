@@ -5,7 +5,7 @@
 
 // ✅ YOUR FIREBASE CONFIG — Already filled in!
 const firebaseConfig = {
-  apiKey: "AIzaSyCm_xPJCyalzBhjCfNZvas6dOf_McqWcAk",
+  apiKey: "AIzaSyBK8AeMFMus0QwTSa6sc5boG5_eBTqFOLk",
   authDomain: "neuro-notes-ai.firebaseapp.com",
   projectId: "neuro-notes-ai",
   storageBucket: "neuro-notes-ai.firebasestorage.app",
@@ -18,8 +18,8 @@ const firebaseConfig = {
 // 🔥 GEMINI AI CONFIG
 // Get your free API key from: https://aistudio.google.com/
 // ============================================================
-const GEMINI_API_KEY = "AIzaSyAykPw4NDQ0oRUzkKy_D8Z0hV1oRoFohlw";
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_API_KEY = "AIzaSyAOf6m3JsRUnAAFtL3IcN0eSZjo2AnPXZA";
+const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
 
 // ============================================================
 // Firebase Initialize
